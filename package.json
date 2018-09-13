@@ -1,8 +1,8 @@
 {
-  "name": "steemscript",
+  "name": "dpayscript",
   "version": "1.0.2",
   "repository": {
-    "url": "git://github.com/bonustrackco/steemscript.git",
+    "url": "git://github.com/dpays/dpayscript.git",
     "type": "git"
   },
   "license": "MIT"
