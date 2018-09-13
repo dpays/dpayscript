@@ -1,4 +1,4 @@
-# Steem Script
+# dPay Script
 
 An Open JSON Standard for Trusted Workflows
 
@@ -7,21 +7,21 @@ An Open JSON Standard for Trusted Workflows
 ```json
 {
     "profile": {
-        "name": "Ned Scott",
-        "about": "CEO and Co-founder at Steemit",
-        "location": "New York",
-        "website": "https://steem.io/",
-        "cover_image": "https://img.busy6.com/@ned/cover",
-        "profile_image": "https://img.busy6.com/@ned",
+        "name": "Jared Rice Sr.",
+        "about": "Creator of dWeb and dPay",
+        "location": "Dallas",
+        "website": "https://jrice.io",
+        "cover_image": "https://img.dsocial.io/@jared/cover",
+        "profile_image": "https://img.dsocial.io/@jared",
         "gender": "male",
-        "email": "ned@steem.io",
+        "email": "jared@dsite.io",
         "birthday": "12/31/1999",
         "timezone": "-5",
         "locale": "en_US",
         "languages": ["en"],
         "featured_post": "the-first-phase-of-the-steem-faq-and-wikee-consolidation-of-knowledge"
     },
-    "dns": {"records":[["@","CNAME","steem.io"]]}}
+    "dns": {"records":[["@","CNAME","dpay.io"]]}}
 }
 ```
 
@@ -39,17 +39,17 @@ An Open JSON Standard for Trusted Workflows
 
 ```json
 {
-  "app": "steemit/1.23",
+  "app": "dsite/1.23",
   "format": "html",
-  "tags": ["steemit", "steem"],
-  "users": ["ned", "dan"],
-  "images": ["https://img.busy6.com/@ned"],
+  "tags": ["dsite", "dpay"],
+  "users": ["jared", "stan"],
+  "images": ["https://img.dsite.io/@jared"],
   "videos": [
     "https://www.youtube.com/watch?v=rkQ7b-u8_6g",
     "https://www.youtube.com/watch?v=H399YZ0pv0o"
   ],
   "status": "archived",
   "canonical":
-    "http://blog.steem.io/steem/@ned/the-first-phase-of-the-steem-faq-and-wikee-consolidation-of-knowledge"
+    "http://blog.dsite.io/dsite/@jared/the-first-phase-of-the-dpay-faq-and-wikee-consolidation-of-knowledge"
 }
 ```
